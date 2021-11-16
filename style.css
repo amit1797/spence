@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap');
+
+*{
+    font-family: 'Cabin', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#notification {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#notification a, #notification a:active {
+    color: white;
+}
+
+#jumbotron {
+    background-color: #eee;
+    padding: 2rem;
+}
+
+#container {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+#heading {
+    font-size: 10px;
+    padding: 20px;
+}
+
+nav>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav>ul>li {
+    padding: 20px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+#buttons a {
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.btn {
+    background-color: black;
+    color: white !important;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
